@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+  .Home {
+    flex-wrap: wrap;
+  }
+  .Services h2 {
+    font-size: 50px;
+  }
+  .Services {
+    height: auto;
+  }
+  .big-dad {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .Services div[class="img-div"] {
+    max-width: 300px;
+  }
+  .Services span {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .Home {
+    flex-wrap: wrap;
+  }
+  .Services h2 {
+    font-size: 50px;
+  }
+  .Services {
+    height: auto;
+  }
+  .big-dad {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
